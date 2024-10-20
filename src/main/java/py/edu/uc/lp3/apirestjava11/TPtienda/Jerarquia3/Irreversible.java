@@ -6,8 +6,8 @@ public class Irreversible extends Pago {
         super(descuento, cuotas);
     }
 
-    @Override
-    public void recibirPago() {
-        // Lógica de recepción de pago irreversible
+    public void rechazarDeshacerPago() {
+        // Lógica de deshacer pago
     }
+
 }

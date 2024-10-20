@@ -14,4 +14,8 @@ public class Venta {
     public void setIdPago(String idPago) {
         this.idPago = idPago;
     }
+
+    public void ofrecerVenta() {
+        System.out.println("Ofreciendo venta");
+    }
 }

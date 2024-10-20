@@ -26,7 +26,7 @@ public class Transaccion extends Venta {
         this.emisor = emisor;
     }
 
-    public void recibirPago() {
+    public void recibirObjeto() {
         // Lógica para recibir pago
     }
 }

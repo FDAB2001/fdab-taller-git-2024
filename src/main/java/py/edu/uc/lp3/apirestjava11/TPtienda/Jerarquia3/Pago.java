@@ -2,6 +2,7 @@ package py.edu.uc.lp3.apirestjava11.TPtienda.Jerarquia3;
 
 public class Pago {
     private double descuento;
+    public double monto;
     private int cuotas;
 
     public Pago(double descuento, int cuotas) {

@@ -2,6 +2,7 @@ package py.edu.uc.lp3.apirestjava11.TPtienda.Jerarquia3;
 
 public class Reversible extends Pago {
     private String usuarioAcreditar;
+    private String usuarioDebitar;
     private String cuenta;
 
     public Reversible(double descuento, int cuotas, String usuarioAcreditar, String cuenta) {
